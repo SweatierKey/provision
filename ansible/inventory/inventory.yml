@@ -1,0 +1,24 @@
+all:
+  children:
+    myservers:
+      hosts:
+        localhost_2222:
+          ansible_host: localhost
+          ansible_port: 2222
+          ansible_user: root
+        localhost_2223:
+          ansible_host: localhost
+          ansible_port: 2223
+          ansible_user: root
+        localhost_2224:
+          ansible_host: localhost
+          ansible_port: 2224
+          ansible_user: root
+        localhost_2225:
+          ansible_host: localhost
+          ansible_port: 2225
+          ansible_user: root
+        localhost_2226:
+          ansible_host: localhost
+          ansible_port: 2226
+          ansible_user: root
